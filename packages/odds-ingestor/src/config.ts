@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 export const CONFIG = {
     apiKey: process.env.API_KEY!,
     baseUrl: process.env.API_URL,

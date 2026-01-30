@@ -16,5 +16,9 @@
   "packageManager": "pnpm@10.27.0",
   "devDependencies": {
     "@types/node": "^25.0.3"
-  }
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }

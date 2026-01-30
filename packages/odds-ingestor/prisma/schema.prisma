@@ -1,0 +1,119 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Sport {
+  basketball_nba
+}
+
+enum Book {
+  neds
+  betr_au
+  betfair_ex_au
+  ladbrokes_au
+  pointsbet_au
+  tabtouch
+  sportsbet
+  tab
+  unibet
+  betright
+  boombet
+  playup
+}
+
+enum CompetitorRole {
+  HOME
+  AWAY
+  NEUTRAL
+}
+
+model Event {
+  id  String  @id
+  startTime DateTime // ISO 8601
+  sport Sport
+  competitors Competitor[]
+  markets Market[]
+  oddsSummaries OddsSummary[]
+}
+
+model Competitor {
+  id  String  @id
+  name  String
+  role  CompetitorRole
+
+  eventId String
+  event Event @relation(fields: [eventId], references: [id])
+
+  h2hOutcomes HeadToHeadOutcome[]
+}
+
+model Market {
+  id  String  @id
+  eventId String
+  book Book
+  type MarketType
+  event Event @relation(fields: [eventId], references: [id])
+
+  h2h HeadToHeadMarket?
+
+  @@unique([eventId, book, type])
+}
+
+enum MarketType {
+  H2H
+  SPREAD
+  TOTALS
+}
+
+model HeadToHeadOutcome {
+  id  String  @id
+  marketId  String
+  competitorId  String
+  odds  Float
+
+  market  HeadToHeadMarket  @relation(fields: [marketId], references: [marketId])
+  competitor Competitor @relation(fields: [competitorId], references: [id])
+
+  @@unique([marketId, competitorId])
+}
+
+model HeadToHeadMarket {
+  marketId String @id
+  market  Market  @relation(fields: [marketId], references: [id])
+
+  outcomes  HeadToHeadOutcome[]
+}
+
+model OddsSummary {
+  id  String  @id
+  eventId String
+  marketType  MarketType
+  book  Book
+  capturedTimestamp DateTime
+
+  event Event @relation(fields: [eventId], references: [id])
+  outcomes  PricedOutcome[]
+  
+  @@index([eventId, capturedTimestamp])
+}
+
+model PricedOutcome {
+  id String @id
+  summaryId String
+  outcomeKey  String
+  odds  Float
+
+  summary OddsSummary @relation(fields: [summaryId], references: [id])
+
+  @@unique([summaryId, outcomeKey])
+}

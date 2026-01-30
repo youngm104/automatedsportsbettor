@@ -1,5 +1,5 @@
 import express from 'express';
-import { fetchOdds } from '@asb/odds-ingestor';
+import { ingestOdds } from '@asb/odds-ingestor';
 
 const app = express();
 app.use(express.json());
@@ -10,7 +10,7 @@ app.get('/health', (req, res) => {
 
 // Example endpoint to fetch odds
 app.get('/odds', (_req, res) => {
-  const odds = fetchOdds();
+  const odds = ingestOdds();
   res.send({ message: 'Odds endpoint coming soon' });
 });
 
