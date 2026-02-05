@@ -1,6 +1,5 @@
 import { ingestOdds } from './ingestOdds.js';
 import 'dotenv/config';
-export { prisma } from './prisma.js';
 export { ingestOdds } from './ingestOdds.js';
 
 async function test() {

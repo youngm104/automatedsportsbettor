@@ -1,4 +1,4 @@
-import { prisma } from './index.js';
+import { prisma } from '@asb/prisma';
 import { normaliseEvents, normaliseH2HSnapshots, normaliseH2HMarkets } from './normaliser.js';
 import { fetchOdds } from './apiClient.js';
 import { Book } from './types.js';

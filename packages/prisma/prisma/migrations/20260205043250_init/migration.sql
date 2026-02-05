@@ -1,8 +1,8 @@
 -- CreateEnum
-CREATE TYPE "Sport" AS ENUM ('TENNIS', 'BASKETBALL', 'CRICKET', 'FOOTBALL', 'AMERICAN_FOOTBALL');
+CREATE TYPE "Sport" AS ENUM ('basketball_nba');
 
 -- CreateEnum
-CREATE TYPE "Book" AS ENUM ('BET365', 'BETFAIR', 'DABBLE', 'PINNACLE', 'SPORTSBET', 'UNIBET', 'TABTOUCH');
+CREATE TYPE "Book" AS ENUM ('neds', 'betr_au', 'betfair_ex_au', 'ladbrokes_au', 'pointsbet_au', 'tabtouch', 'sportsbet', 'tab', 'unibet', 'betright', 'boombet', 'playup');
 
 -- CreateEnum
 CREATE TYPE "CompetitorRole" AS ENUM ('HOME', 'AWAY', 'NEUTRAL');
