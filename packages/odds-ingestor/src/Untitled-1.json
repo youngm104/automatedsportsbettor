@@ -1,0 +1,799 @@
+[
+  {
+    "id": "bae6f92133f4d23a94bdf6b6f1ba699c",
+    "sport_key": "icehockey_sweden_allsvenskan",
+    "sport_title": "HockeyAllsvenskan",
+    "commence_time": "2026-01-05T14:01:00Z",
+    "home_team": "Nybro Vikings IF",
+    "away_team": "Almtuna IS",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-01-05T14:51:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:01Z",
+            "outcomes": [
+              {
+                "name": "Almtuna IS",
+                "price": 2
+              },
+              {
+                "name": "Nybro Vikings IF",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tabtouch",
+        "title": "TABtouch",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "Almtuna IS",
+                "price": 1.97
+              },
+              {
+                "name": "Nybro Vikings IF",
+                "price": 3.1
+              },
+              {
+                "name": "Draw",
+                "price": 3.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f34285f535bf21ab86326a9b4fa20ed7",
+    "sport_key": "soccer_africa_cup_of_nations",
+    "sport_title": "Africa Cup of Nations",
+    "commence_time": "2026-01-05T16:00:00Z",
+    "home_team": "Egypt",
+    "away_team": "Benin",
+    "bookmakers": [
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2026-01-05T14:50:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:19Z",
+            "outcomes": [
+              {
+                "name": "Benin",
+                "price": 10
+              },
+              {
+                "name": "Egypt",
+                "price": 1.36
+              },
+              {
+                "name": "Draw",
+                "price": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair_ex_au",
+        "title": "Betfair",
+        "last_update": "2026-01-05T14:51:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:02Z",
+            "outcomes": [
+              {
+                "name": "Benin",
+                "price": 11.5
+              },
+              {
+                "name": "Egypt",
+                "price": 1.44
+              },
+              {
+                "name": "Draw",
+                "price": 4.4
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2026-01-05T14:51:02Z",
+            "outcomes": [
+              {
+                "name": "Benin",
+                "price": 12
+              },
+              {
+                "name": "Egypt",
+                "price": 1.45
+              },
+              {
+                "name": "Draw",
+                "price": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "playup",
+        "title": "PlayUp",
+        "last_update": "2026-01-05T14:51:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:02Z",
+            "outcomes": [
+              {
+                "name": "Benin",
+                "price": 8.5
+              },
+              {
+                "name": "Egypt",
+                "price": 1.4
+              },
+              {
+                "name": "Draw",
+                "price": 4.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b192c436388697892d679098134fa7a9",
+    "sport_key": "icehockey_liiga",
+    "sport_title": "Liiga",
+    "commence_time": "2026-01-05T16:30:00Z",
+    "home_team": "Tappara",
+    "away_team": "HPK",
+    "bookmakers": [
+      {
+        "key": "betfair_ex_au",
+        "title": "Betfair",
+        "last_update": "2026-01-05T14:50:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:51Z",
+            "outcomes": [
+              {
+                "name": "HPK",
+                "price": 3
+              },
+              {
+                "name": "Tappara",
+                "price": 1.01
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2026-01-05T14:50:51Z",
+            "outcomes": [
+              {
+                "name": "HPK",
+                "price": 110
+              },
+              {
+                "name": "Tappara",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:22Z",
+            "outcomes": [
+              {
+                "name": "HPK",
+                "price": 4.2
+              },
+              {
+                "name": "Tappara",
+                "price": 1.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:49:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:49:20Z",
+            "outcomes": [
+              {
+                "name": "HPK",
+                "price": 4.2
+              },
+              {
+                "name": "Tappara",
+                "price": 1.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d0bd47af3123b17baff63d1add93f959",
+    "sport_key": "icehockey_sweden_allsvenskan",
+    "sport_title": "HockeyAllsvenskan",
+    "commence_time": "2026-01-05T16:30:00Z",
+    "home_team": "IF Björklöven",
+    "away_team": "IK Oskarshamn",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-01-05T14:51:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:01Z",
+            "outcomes": [
+              {
+                "name": "IF Björklöven",
+                "price": 1.43
+              },
+              {
+                "name": "IK Oskarshamn",
+                "price": 5.5
+              },
+              {
+                "name": "Draw",
+                "price": 5.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tabtouch",
+        "title": "TABtouch",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "IF Björklöven",
+                "price": 1.41
+              },
+              {
+                "name": "IK Oskarshamn",
+                "price": 5.2
+              },
+              {
+                "name": "Draw",
+                "price": 5.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:50:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:21Z",
+            "outcomes": [
+              {
+                "name": "IF Björklöven",
+                "price": 1.25
+              },
+              {
+                "name": "IK Oskarshamn",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "IF Björklöven",
+                "price": 1.25
+              },
+              {
+                "name": "IK Oskarshamn",
+                "price": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3461a6e069c2c57088115ab380f2ae3a",
+    "sport_key": "icehockey_liiga",
+    "sport_title": "Liiga",
+    "commence_time": "2026-01-05T16:30:00Z",
+    "home_team": "Jukurit",
+    "away_team": "Lukko",
+    "bookmakers": [
+      {
+        "key": "betfair_ex_au",
+        "title": "Betfair",
+        "last_update": "2026-01-05T14:50:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:51Z",
+            "outcomes": [
+              {
+                "name": "Jukurit",
+                "price": 1.01
+              },
+              {
+                "name": "Lukko",
+                "price": 1.01
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2026-01-05T14:50:51Z",
+            "outcomes": [
+              {
+                "name": "Jukurit",
+                "price": 110
+              },
+              {
+                "name": "Lukko",
+                "price": 110
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:22Z",
+            "outcomes": [
+              {
+                "name": "Jukurit",
+                "price": 2.45
+              },
+              {
+                "name": "Lukko",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:49:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:49:20Z",
+            "outcomes": [
+              {
+                "name": "Jukurit",
+                "price": 2.45
+              },
+              {
+                "name": "Lukko",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cc6c468688e3400bf8703a32474d90ba",
+    "sport_key": "icehockey_liiga",
+    "sport_title": "Liiga",
+    "commence_time": "2026-01-05T16:30:00Z",
+    "home_team": "KooKoo",
+    "away_team": "SaiPa",
+    "bookmakers": [
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:22Z",
+            "outcomes": [
+              {
+                "name": "KooKoo",
+                "price": 1.53
+              },
+              {
+                "name": "SaiPa",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:49:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:49:20Z",
+            "outcomes": [
+              {
+                "name": "KooKoo",
+                "price": 1.53
+              },
+              {
+                "name": "SaiPa",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bf76e3fbe0508bbdde875bf972375a68",
+    "sport_key": "icehockey_sweden_allsvenskan",
+    "sport_title": "HockeyAllsvenskan",
+    "commence_time": "2026-01-05T16:30:00Z",
+    "home_team": "Mora IK",
+    "away_team": "Modo Hockey",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-01-05T14:51:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:01Z",
+            "outcomes": [
+              {
+                "name": "Modo Hockey",
+                "price": 1.96
+              },
+              {
+                "name": "Mora IK",
+                "price": 3.2
+              },
+              {
+                "name": "Draw",
+                "price": 4.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tabtouch",
+        "title": "TABtouch",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "Modo Hockey",
+                "price": 1.91
+              },
+              {
+                "name": "Mora IK",
+                "price": 3.05
+              },
+              {
+                "name": "Draw",
+                "price": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "Modo Hockey",
+                "price": 1.6
+              },
+              {
+                "name": "Mora IK",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:50:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:21Z",
+            "outcomes": [
+              {
+                "name": "Modo Hockey",
+                "price": 1.6
+              },
+              {
+                "name": "Mora IK",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ef7487852a3e959b37553a05d434d0e4",
+    "sport_key": "icehockey_sweden_allsvenskan",
+    "sport_title": "HockeyAllsvenskan",
+    "commence_time": "2026-01-05T16:30:00Z",
+    "home_team": "Västerås IK",
+    "away_team": "Södertälje SK",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-01-05T14:51:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:01Z",
+            "outcomes": [
+              {
+                "name": "Södertälje SK",
+                "price": 2.12
+              },
+              {
+                "name": "Västerås IK",
+                "price": 2.8
+              },
+              {
+                "name": "Draw",
+                "price": 4.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tabtouch",
+        "title": "TABtouch",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "Södertälje SK",
+                "price": 2.05
+              },
+              {
+                "name": "Västerås IK",
+                "price": 2.7
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "Södertälje SK",
+                "price": 1.8
+              },
+              {
+                "name": "Västerås IK",
+                "price": 1.91
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:50:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:21Z",
+            "outcomes": [
+              {
+                "name": "Södertälje SK",
+                "price": 1.8
+              },
+              {
+                "name": "Västerås IK",
+                "price": 1.91
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12d508f1a50a55114fd4f932835db1d9",
+    "sport_key": "icehockey_sweden_allsvenskan",
+    "sport_title": "HockeyAllsvenskan",
+    "commence_time": "2026-01-05T19:00:00Z",
+    "home_team": "AIK",
+    "away_team": "BIK Karlskoga",
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-01-05T14:51:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:01Z",
+            "outcomes": [
+              {
+                "name": "AIK",
+                "price": 2.55
+              },
+              {
+                "name": "BIK Karlskoga",
+                "price": 2.3
+              },
+              {
+                "name": "Draw",
+                "price": 4.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tabtouch",
+        "title": "TABtouch",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "AIK",
+                "price": 2.45
+              },
+              {
+                "name": "BIK Karlskoga",
+                "price": 2.23
+              },
+              {
+                "name": "Draw",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ladbrokes_au",
+        "title": "Ladbrokes",
+        "last_update": "2026-01-05T14:51:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:51:14Z",
+            "outcomes": [
+              {
+                "name": "AIK",
+                "price": 1.95
+              },
+              {
+                "name": "BIK Karlskoga",
+                "price": 1.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "neds",
+        "title": "Neds",
+        "last_update": "2026-01-05T14:50:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-05T14:50:21Z",
+            "outcomes": [
+              {
+                "name": "AIK",
+                "price": 1.95
+              },
+              {
+                "name": "BIK Karlskoga",
+                "price": 1.75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
